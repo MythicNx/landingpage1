@@ -207,30 +207,19 @@ const I18N = {
 };
 
 /* ====== صور المعرض (الأولى تتبدّل حسب اللون) ====== */
-const ALL_PRODUCT_IMAGES = [
-  "images/ابعاد المنتج ابيض.webp",
-  "images/ابيض قطة واحدة.webp",
+const COLOR_IMG = {
+  black: "images/قطعة واحدة اسود.webp",
+  white: "images/ابيض قطة واحدة.webp"
+};
+
+const GALLERY_FIXED = [
+  "images/قطعتين اسود.webp",
+  "images/قطعتين ابيض.webp",
   "images/ثلاث طقع اسود.webp",
   "images/ثلاث قطع ابيض.webp",
-  "images/صور عرض جميلة لوصف منتج.webp",
   "images/صور منتج للوصف.webp",
-  "images/صورة اخرى للوصف.webp",
-  "images/صورة اخرى لوصف منتج.webp",
-  "images/صورة جميلة اخرى لوصف منتج.webp",
-  "images/صورة جميلة لوصف منتج.webp",
-  "images/صورة لخصائخ منتج اسود.webp",
-  "images/صورة منتج لخصائص منتج ابيض.webp",
-  "images/صورة وصف اخرى للمنتج ابيض.webp",
-  "images/صورة وصف للاجابة على اسئلة.webp",
-  "images/صورة وصف منتج.webp",
-  "images/صورة وصف.webp",
-  "images/قطعة واحدة اسود.webp",
-  "images/قطعتين ابيض.webp",
-  "images/قطعتين اسود.webp",
-  "images/وصف ابعاد المنتج اسود.webp"
+  "images/صور عرض جميلة لوصف منتج.webp"
 ];
-
-const galleryList = () => ALL_PRODUCT_IMAGES;
 
 /* ====== الحالة ====== */
 const state = {
