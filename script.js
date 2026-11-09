@@ -234,7 +234,7 @@ const state = {
   delivery: "home",
   galIndex: 0,
 };
-const galleryList = () => [COLOR_IMG[state.color], ...GALLERY_FIXED];
+const galleryList = () => COLOR_GALLERY[state.color] || COLOR_GALLERY.white;
 
 /* ====== أدوات مساعدة ====== */
 const $ = (s) => document.querySelector(s);
@@ -281,7 +281,12 @@ function renderColor() {
   });
 }
 $$(".color-dot").forEach((d) =>
-  d.addEventListener("click", () => { state.color = d.dataset.color; renderColor(); renderGallery(true); })
+  d.addEventListener("click", () => {
+    state.color = d.dataset.color;
+    state.galIndex = 0;
+    renderColor();
+    renderGallery(true);
+  })
 );
 
 /* ====== الباقات ====== */
