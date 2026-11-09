@@ -218,7 +218,6 @@ const GALLERY_FIXED = [
   "images/ثلاث طقع اسود.webp",
   "images/ثلاث قطع ابيض.webp",
   "images/ابعاد المنتج ابيض.webp",
-  "images/وصف ابعاد المنتج اسود.webp",
   "images/صورة منتج لخصائص منتج ابيض.webp",
    "images/صورة لخصائخ منتج اسود.webp",
    "images/product size M.webp",
