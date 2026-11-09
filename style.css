@@ -2,25 +2,24 @@
    Maison Pratique — نظام الألوان كامل في :root (غيّر من هنا)
    ============================================================ */
 :root {
-  --bg: #FAF6EF;             /* خلفية الصفحة */
-  --surface: #FFFFFF;        /* سطح البطاقات */
-  --ink: #211E19;            /* لون النص الأساسي */
-  --muted: #756C5E;          /* نص ثانوي */
-  --primary: #211E19;        /* لون أساسي (أزرار) */
-  --primary-hover: #3A352D;
-  --accent: #C6A273;         /* لون ثانوي (ذهبي دافئ من الشعار) */
-  --accent-soft: #F3E9DA;    /* خلفيات مميزة خفيفة */
-  --border: #E9E0D2;         /* الحدود */
+  --bg: #F3EBDD;             /* خلفية الصفحة - بيج دافئ */
+  --surface: #FFFFFF;        /* البطاقات */
+  --ink: #211C17;            /* النص الأساسي */
+  --muted: #827667;          /* النص الثانوي */
+  --primary: #211C17;        /* الأزرار */
+  --primary-hover: #393128;
+  --accent: #B98B55;         /* ذهبي دافئ */
+  --accent-soft: #F3E9DA;    /* خلفيات مميزة */
+  --border: #E3D5C2;          /* الحدود */
   --success: #2F7D4E;
   --error: #B4372A;
   --radius: 16px;
   --radius-sm: 10px;
-  --shadow: 0 2px 6px rgba(33,30,25,.06), 0 14px 34px rgba(33,30,25,.08);
-  --shadow-sm: 0 1px 3px rgba(33,30,25,.08);
+  --shadow: 0 2px 6px rgba(33,28,23,.06), 0 14px 34px rgba(33,28,23,.08);
+  --shadow-sm: 0 1px 3px rgba(33,28,23,.08);
   --font-ar: 'Tajawal', sans-serif;
   --font-ltr: 'Inter', sans-serif;
 }
-
 *, *::before, *::after { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
