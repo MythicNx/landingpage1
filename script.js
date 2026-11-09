@@ -207,18 +207,10 @@ const I18N = {
 };
 
 /* ====== صور المعرض (الأولى تتبدّل حسب اللون) ====== */
-const COLOR_IMG = {
-  black: "images/قطعة واحدة اسود.webp",
-  white: "images/ابيض قطة واحدة.webp"
-};
-
+const COLOR_IMG = { black: "images/color-black.webp", white: "images/color-white.webp" };
 const GALLERY_FIXED = [
-  "images/قطعتين اسود.webp",
-  "images/قطعتين ابيض.webp",
-  "images/ثلاث طقع اسود.webp",
-  "images/ثلاث قطع ابيض.webp",
-  "images/صور منتج للوصف.webp",
-  "images/صور عرض جميلة لوصف منتج.webp"
+  "images/gallery-2.webp", "images/gallery-3.webp", "images/gallery-4.webp",
+  "images/gallery-5.webp", "images/gallery-6.webp", "images/gallery-7.webp",
 ];
 
 /* ====== الحالة ====== */
