@@ -160,7 +160,8 @@ a { color: inherit; }
   overflow: hidden;
   background: var(--surface);
   box-shadow: var(--shadow);
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
+  width: 120%;
 }
 .gallery-main img {
   width: 100%; height: 100%;
