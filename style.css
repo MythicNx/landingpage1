@@ -481,14 +481,24 @@ section.container { padding-block: 44px; }
 
 /* صور التفاصيل */
 .detail-fig {
-  margin: 0 0 18px;
+  margin: 0 auto 12px;
+  max-width: 600px;
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
   background: var(--surface);
 }
-.detail-fig img { width: 100%; height: auto; }
-.details-cta { text-align: center; margin-top: 26px; }
+
+.detail-fig img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.details-cta {
+  text-align: center;
+  margin-top: 20px;
+}
 
 /* الأسئلة الشائعة */
 .faq-list { display: grid; gap: 12px; max-width: 780px; margin-inline: auto; }
